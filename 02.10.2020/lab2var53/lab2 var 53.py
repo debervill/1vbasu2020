@@ -11,7 +11,13 @@ if x1 >= 0:
 else:
     x2 = math.fabs(x1)
 
-if x1 > x2:
+x1 = 12
+x2 = 12
+
+if x1 == x2:
+    print("Числа равны, максимального нет")
+    xmax = None
+elif x1  > x2:
     xmax = x1
 else:
     xmax = x2
